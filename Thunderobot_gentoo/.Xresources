@@ -1,0 +1,75 @@
+Xft.dpi: 161
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+XTerm*termName: xterm-color
+# xterm.termName: xterm-256color
+XTerm*visualBell: false
+XTerm*marginBell: false
+XTerm*alwaysHighlight: false
+
+#Xft.dpi:96
+
+xpdf.title: PDF
+
+XTerm*locale: true
+# xterm*local:zh_CN.UTF-8
+xterm.utf8: true
+XTerm*utf8Title: true
+
+xterm*xftAntialias: true
+
+XTerm*fontMenu*fontdefault*Label: Default
+XTerm*faceName: Bitstream Vera Sans Mono:antialias=True:pixelsize=32
+# xterm*faceName: DejaVu Sans Mono:antialias=True:pixelsize=14
+!xterm*faceName: Monaco:antialias=True:pixelsize=15
+!xterm*faceName: monofur:antialias=True:pixelsize=20
+!xter*boldFont: DejaVu Sans Mono:style=Bold:pixelsize=15
+
+XTerm*faceSize: 16
+XTerm*faceSize1: 16
+XTerm*faceSize2: 16
+XTerm*faceSize3: 16
+XTerm*faceSize4: 16
+XTerm*faceSize5: 16
+XTerm*faceSize6: 16
+
+XTerm*background: black
+XTerm*foreground: gray
+
+XTerm*scrollBar: falseXTerm*rightScrollBar: false
+XTerm*jumpScroll: true
+XTerm*scrollKey: false
+XTerm*scrollTtyOutput: true
+XTerm*SaveLines: 1000
+
+!中文支持
+! xterm*faceNameDoublesize: wenquanyi bitmap song:pixelsize=32:antialias=True
+xterm*faceNameDoublesize: WenQuanYi Micro Hei:pixelsize=32:antialias=True
+! XTerm*XimFont: -wenquanyi-wenquanyi bitmap song-medium-r-normal--16-160-75-75-p-80-iso10646-1
+xterm*xftAntialias: true
+xterm*cjkWidth:false 
+XTerm*selectToClipboard: true
+
+XTerm*loginShell: true
+
+xterm.geometry: 80x36
+xterm.borderLess: true
+xterm.cursorBlink: false
+xterm*colorUL: yellow
+xterm*colorBD: white
+
+!print color and bold/underline attributes
+xterm*printAttributes: 2
+xterm*printerCommand: cat > ~/xtermdump
+
+!mouse selecting to copy, ctrl-v to paste
+!Ctrl p to print screen content to file
+XTerm*VT100.Translations: #override \
+Ctrl <KeyPress> V: insert-selection(CLIPBOARD,PRIMARY,CUT_BUFFER0) \n\
+<BtnUp>: select-end(CLIPBOARD,PRIMARY,CUT_BUFFER0) \n\
+Ctrl <KeyPress> P: print() \n
