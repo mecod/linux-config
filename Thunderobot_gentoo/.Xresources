@@ -41,7 +41,8 @@ XTerm*faceSize6: 16
 XTerm*background: black
 XTerm*foreground: gray
 
-XTerm*scrollBar: falseXTerm*rightScrollBar: false
+XTerm*scrollBar: false
+XTerm*rightScrollBar: false
 XTerm*jumpScroll: true
 XTerm*scrollKey: false
 XTerm*scrollTtyOutput: true
