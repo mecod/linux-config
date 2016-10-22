@@ -6,5 +6,4 @@ export GTK_IM_MODULE=xim
 fcitx&
 keepass&
 wechat&
-xrandr --output HDMI1 --mode 1920x1080 --left-of LVDS1
 exec awesome
